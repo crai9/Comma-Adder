@@ -16,6 +16,7 @@ $('.activity__title,.activity__meta,.event__title').each(function () {
 
 });
 
+//Adds the commas with RegEx
 function addCommas(str) {
     str += '';
     x = str.split('.');
